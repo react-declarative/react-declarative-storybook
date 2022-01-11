@@ -4,7 +4,6 @@
 
     const main = () => {
         const EXPANDED_CLASS = `preview-head-expanded-${rnd()}`;
-        debugger
         const observer = new MutationObserver(() => {
             const expandButtons = [...document.querySelectorAll('button[type=button] > span')]
                 .filter((el) => el.innerHTML === 'RAW')
