@@ -15,6 +15,8 @@
   "dependencies": {
     "@emotion/css": "^11.7.1",
     "@mui/material": "^5.2.8",
+    "expose-loader": "^3.1.0",
+    "jquery": "^3.6.0",
     "react": "^17.0.1",
     "react-declarative": "^1.6.6",
     "react-dom": "^17.0.1"
