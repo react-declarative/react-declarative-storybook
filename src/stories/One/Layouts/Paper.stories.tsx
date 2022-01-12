@@ -1,12 +1,12 @@
 import { FieldType, TypedField } from 'react-declarative';
 
-import { LayoutTemplate } from '../../components/LayoutTemplate';
+import { LayoutTemplate } from '../../../components/LayoutTemplate';
 
-export const Outline = LayoutTemplate.bind({});
+export const Paper = LayoutTemplate.bind({});
 
 const fields: TypedField[] = [
   {
-    type: FieldType.Outline,
+    type: FieldType.Paper,
     fields: [
       {
         type: FieldType.Typography,
@@ -16,7 +16,7 @@ const fields: TypedField[] = [
   }
 ];
 
-Outline.argTypes = {
+Paper.argTypes = {
   fields: {
     name: 'fields',
     defaultValue: fields,

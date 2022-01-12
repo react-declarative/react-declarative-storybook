@@ -1,6 +1,6 @@
 import { FieldType, TypedField } from 'react-declarative';
 
-import { LayoutTemplate } from '../../components/LayoutTemplate';
+import { LayoutTemplate } from '../../../components/LayoutTemplate';
 
 export const Stretch = LayoutTemplate.bind({});
 

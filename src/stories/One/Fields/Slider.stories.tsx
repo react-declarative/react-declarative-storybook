@@ -1,6 +1,6 @@
 import { FieldType, TypedField } from 'react-declarative';
 
-import { FieldTemplate } from '../../components/FieldTemplate';
+import { FieldTemplate } from '../../../components/FieldTemplate';
 
 export const Slider = FieldTemplate.bind({});
 

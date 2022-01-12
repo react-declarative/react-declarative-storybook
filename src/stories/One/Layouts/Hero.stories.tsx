@@ -2,7 +2,7 @@ import { FieldType, TypedField } from 'react-declarative';
 
 import { Paper } from '@mui/material';
 
-import { LayoutTemplate } from '../../components/LayoutTemplate';
+import { LayoutTemplate } from '../../../components/LayoutTemplate';
 
 export const Hero = LayoutTemplate.bind({});
 
