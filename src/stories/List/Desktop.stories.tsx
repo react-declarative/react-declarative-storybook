@@ -26,7 +26,7 @@ const columns: IColumn[] = [
         field: 'id',
         headerName: 'ID',
         secondary: true,
-        width: 'max(calc(100vw - 650px), 200px)',
+        width: 'max(calc(100vw - 665px), 200px)',
     },
     {
         type: ColumnType.Compute,
