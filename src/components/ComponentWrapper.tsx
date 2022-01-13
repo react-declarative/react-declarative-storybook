@@ -3,7 +3,7 @@ import React from 'react';
 import { ModalProvider } from 'react-declarative';
 
 interface IComponentWrapperrProps {
-  children: React.ReactChild;
+  children: React.ReactNode;
 }
 
 export const ComponentWrapper = ({
