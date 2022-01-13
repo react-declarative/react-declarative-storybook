@@ -5,5 +5,6 @@ module.exports = {
                 hidden: true,
             },
         },
+        controls: { hideNoControlsWarning: true },
     },
 };

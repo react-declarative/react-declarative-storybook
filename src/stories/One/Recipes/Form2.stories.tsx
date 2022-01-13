@@ -117,16 +117,6 @@ const fields: TypedField[] = [
     type: FieldType.Text,
     title: 'Age',
     description: '42',
-    isInvalid: (obj) => {
-      const value = Number(obj.age);
-      if (!Number.isInteger(value)) {
-        return 'Возраст должен быть числом';
-      } else if (value < 1) {
-        return 'Возраст должен быть больше 1';
-      } else {
-        return null;
-      }
-    },
   },
   {
     type: FieldType.Expansion,
@@ -137,21 +127,6 @@ const fields: TypedField[] = [
         type: FieldType.Switch,
         name: 'subscribed',
         title: 'Enable',
-      },
-      {
-        name: 'email',
-        type: FieldType.Text,
-        isDisabled: (obj) => !obj.subscribed,
-        isInvalid({email}) {
-          const expr = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
-          if (!expr.test(email)) {
-            return 'Double check this email address';
-          } else {
-            return null;
-          }
-        },
-        title: 'Email',
-        description: 'tripolskypetr@gmail.com',
       },
     ],
   },
