@@ -36,7 +36,7 @@ Basic [AppBar](https://material.io/components/app-bars-top) plus [Drawer](https:
 
 ![4.png](./docs/4.png)
 
-### 5. Pickers
+### Pickers
 
 Date, Time, One (custom json-templated form) pickers
 
