@@ -21,8 +21,8 @@ const fields: TypedField[] = [
             element: () => (
               <AutoSizer style={{ height: 225 }}>
                 {({ width }) => (
-                  <Box className={css`display: flex; align-items: center; overflow: hidden;`}>
-                    <Avatar className={css`margin-top: 30px;`} style={{ height: width, width }} />
+                  <Box className={css`display: flex; align-items: center; overflow: hidden; margin-right: 5px; margin-left: -5px;`}>
+                    <Avatar className={css`margin-top: 30px; border-radius: unset !important;`} style={{ height: width, width }} />
                   </Box>
                 )}
               </AutoSizer>
