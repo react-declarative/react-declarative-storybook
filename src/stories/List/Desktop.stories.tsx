@@ -119,7 +119,7 @@ const ListDemo = () => {
         };
     };
 
-    const heightRequest = () => window.innerHeight - 100;
+    const heightRequest = () => window.innerHeight;
 
     const handleColumnMenuClick = (action: string) => {
         alert(action);
