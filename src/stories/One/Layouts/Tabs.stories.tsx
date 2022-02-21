@@ -15,6 +15,8 @@ const fields: TypedField[] = [
         "Second",
         "Third"
       ],
+      tabLine: true,
+      tabBackground: true,
       fields: [
         {
           type: FieldType.Group,
