@@ -9,6 +9,7 @@ const textfield: TypedField = {
   title: 'Phone number',
   name: 'phone',
   inputFormatterTemplate: '+1 (000) 000-0000',
+  inputFormatterAllowed: /^[0-9]/,
 };
 
 Textfield.argTypes = {
