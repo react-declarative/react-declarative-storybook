@@ -26,14 +26,14 @@ const columns: IColumn[] = [
         field: 'id',
         headerName: 'ID',
         secondary: true,
-        width: 'max(calc(100vw - 665px), 200px)',
+        width: (fullWidth) => Math.max(fullWidth - 665, 200),
     },
     {
         type: ColumnType.Compute,
         headerName: 'Full name',
         primary: true,
         compute: ({ firstName, lastName }) => `${firstName} ${lastName}`,
-        width: '200px',
+        width: () => 200,
     },
     {
         type: ColumnType.Component,
@@ -43,13 +43,13 @@ const columns: IColumn[] = [
                 Custom cell Component
             </div>
         ),
-        width: '200px',
+        width: () => 200,
     },
     {
         type: ColumnType.Action,
         headerName: 'Actions',
         sortable: false,
-        width: '150px',
+        width: () => 150,
     },
 ];
 

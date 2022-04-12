@@ -6,8 +6,9 @@ export const Textfield = FieldTemplate.bind({});
 
 const textfield: TypedField = {
   type: FieldType.Text,
-  title: 'Textfield',
-  name: 'textfield',
+  title: 'Phone number',
+  name: 'phone',
+  inputFormatterTemplate: '+1 (000) 000-0000',
 };
 
 Textfield.argTypes = {
