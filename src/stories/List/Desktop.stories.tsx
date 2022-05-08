@@ -69,10 +69,7 @@ const actions: IListAction[] = [
                 action: 'update-now',
             },
             {
-                action: 'auto-reload',
-            },
-            {
-                action: 'mobile-view',
+                action: 'resort-action',
             },
         ],
     }
@@ -121,10 +118,6 @@ const ListDemo = () => {
 
     const heightRequest = () => window.innerHeight - 50;
 
-    const handleColumnMenuClick = (action: string) => {
-        alert(action);
-    };
-
     const handleRowActionsClick = (row: any, action: string) => {
         alert(JSON.stringify({ row, action }, null, 2));
     };
@@ -148,15 +141,10 @@ const ListDemo = () => {
             columns={columns}
             handler={handler}
             selectionMode={SelectionMode.None}
-            onColumnMenuAction={handleColumnMenuClick}
             onRowAction={handleRowActionsClick}
             onRowClick={handleClick}
             onAction={handleAction}
             rowMark={row => row.color}
-            rowAvatar={(row) => ({
-                alt: row.firstName,
-                src: 'https://avatars.githubusercontent.com/u/19227776?s=400&u=9eb4f0056f36228804b7e4c2e4d02358d5786bb4&v=4',
-            })}
         />
     );
 };
