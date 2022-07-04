@@ -7,6 +7,12 @@ import { ComponentWrapper } from '../../components/ComponentWrapper';
 
 import mock from '../../mock/list.json';
 
+const sleep = (timeout?: number) => {
+    return new Promise<void>((res) => {
+        setTimeout(() => res(), timeout ? timeout : 1e3);
+    });
+};
+
 const filters: TypedField[] = [
     {
         type: FieldType.Text,
@@ -92,6 +98,8 @@ const ListDemo = () => {
         limit,
         offset,
     }: ListHandlerPagination, sort: ListHandlerSortModel) => {
+
+        await sleep(5000)
 
         // TODO
         console.log(sort);

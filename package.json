@@ -20,7 +20,7 @@
     "expose-loader": "^3.1.0",
     "jquery": "^3.6.0",
     "react": "^17.0.1",
-    "react-declarative": "^1.9.64",
+    "react-declarative": "^1.9.66",
     "react-dom": "^17.0.1"
   },
   "scripts": {
