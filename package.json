@@ -13,15 +13,17 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@emotion/css": "^11.7.1",
-    "@mui/icons-material": "^5.2.5",
-    "@mui/material": "^5.2.8",
-    "@mui/styles": "^5.2.3",
-    "expose-loader": "^3.1.0",
-    "jquery": "^3.6.0",
-    "react": "^17.0.1",
-    "react-declarative": "^1.9.66",
-    "react-dom": "^17.0.1"
+    "@emotion/css": "^11.10.0",
+    "@emotion/react": "11.8.1",
+    "@emotion/styled": "11.8.1",
+    "@mui/icons-material": "5.5.0",
+    "@mui/material": "5.5.0",
+    "@mui/styles": "5.5.0",
+    "expose-loader": "3.1.0",
+    "jquery": "3.6.0",
+    "react": "17.0.1",
+    "react-declarative": "1.9.122",
+    "react-dom": "17.0.1"
   },
   "scripts": {
     "start": "start-storybook -p 6006 -c ./config",
