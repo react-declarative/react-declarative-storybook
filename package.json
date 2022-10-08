@@ -22,7 +22,7 @@
     "expose-loader": "3.1.0",
     "jquery": "3.6.0",
     "react": "17.0.1",
-    "react-declarative": "1.9.122",
+    "react-declarative": "2.0.67",
     "react-dom": "17.0.1"
   },
   "scripts": {
