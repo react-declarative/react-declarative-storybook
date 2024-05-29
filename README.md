@@ -6,6 +6,11 @@
 npm install react-declarative
 ```
 
+## Contribute
+
+> [!IMPORTANT]
+> There is made by using [react-declarative](https://github.com/react-declarative/react-declarative) to solve your problems. **⭐Star** and **💻Fork** It on github will be appreciated
+
 ## Declarative view builder
 
 A React form builder which interacts with a JSON endpoint to generate nested 12-column grids with input fields and automatic state management in a declarative style. Endpoint is typed by TypeScript guards (**IntelliSense** available). This tool is based on `material-ui` components, so your application will look beautiful on any device...
